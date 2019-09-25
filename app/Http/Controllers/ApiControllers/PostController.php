@@ -7,9 +7,8 @@ use App\Http\Controllers\ApiControllers\Controller;
 
 class PostController extends Controller
 {
-    public function getPosts(Request $request)
+    public function getPosts()
     {
-        //dd($request->input());
         try {
             $user = auth()->userOrFail();
         }catch( \Tymon\JWTAuth\Exceptions\UserNotDefinedException $e)
@@ -19,5 +18,10 @@ class PostController extends Controller
 
 
         return 'returning the posts';
+    }
+
+    public function getPosts_middleware()
+    {
+        return 'returning the posts through middleware';
     }
 }

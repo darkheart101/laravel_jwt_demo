@@ -20,3 +20,8 @@ use Illuminate\Http\Request;
 Route::post('/login','ApiControllers\Auth\LoginController@login');
 
 Route::get('/posts','ApiControllers\PostController@getPosts');
+
+
+Route::group(['middleware' => ['jwt.auth']], function() {
+    Route::get('test_middleware_posts', 'ApiControllers\PostController@getPosts_middleware');
+});

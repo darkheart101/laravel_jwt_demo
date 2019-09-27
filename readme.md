@@ -30,7 +30,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 [![Latest Dev Version](https://img.shields.io/packagist/vpre/tymon/jwt-auth.svg?style=flat-square)](https://packagist.org/packages/tymon/jwt-auth#dev-develop)
 [![Monthly Downloads](https://img.shields.io/packagist/dm/tymon/jwt-auth.svg?style=flat-square)](https://packagist.org/packages/tymon/jwt-auth)
 [![Dependency Status](https://www.versioneye.com/php/tymon:jwt-auth/dev-develop/badge?style=flat-square)](https://www.versioneye.com/php/tymon:jwt-auth/dev-develop)
-[![PHP-Eye](https://php-eye.com/badge/tymon/jwt-auth/tested.svg?style=flat-square)](https://php-eye.com/package/tymon/jwt-auth)
 
 ## Documentation
 
@@ -38,7 +37,6 @@ For version `0.5.*` See the [WIKI](https://github.com/tymondesigns/jwt-auth/wiki
 
 Documentation for `1.0.0` is coming soon, but there is an unfinished guide [here](http://jwt-auth.readthedocs.io)
 
-[<img src="https://user-images.githubusercontent.com/1801923/57975478-a7a88900-79c1-11e9-924b-d7fa742f743b.png" height="40">](https://www.patreon.com/bePatron?u=11815122)
 
 ## Laravel Jwt Authentication Demo
 This repository is a demo using Jwt authentication.

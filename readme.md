@@ -41,4 +41,7 @@ Documentation for `1.0.0` is coming soon, but there is an unfinished guide [here
 [<img src="https://user-images.githubusercontent.com/1801923/57975478-a7a88900-79c1-11e9-924b-d7fa742f743b.png" height="40">](https://www.patreon.com/bePatron?u=11815122)
 
 ## Laravel Jwt Authentication Demo
-This repository is a demo using Jwt authentication
+This repository is a demo using Jwt authentication.
+
+## Helpful video tutorial
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6eX9Pj-GhZs/0.jpg)](https://www.youtube.com/watch?v=6eX9Pj-GhZs)
